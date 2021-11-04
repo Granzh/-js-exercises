@@ -16,4 +16,5 @@ function factorial(n) {
 }
 
 let  n = +prompt("Enter any number", "");
+n = Math.floor(n);
 factorial(n)
