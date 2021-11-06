@@ -1,4 +1,7 @@
-function factorial(n) {
+function factorial() {
+    let input = document.getElementById(N);
+    let  n = input.value;
+    n = Math.floor(n);
     if (n == 0) {
         n = 1;
         alert(n);
@@ -14,7 +17,3 @@ function factorial(n) {
     }
 
 }
-
-let  n = +prompt("Enter any number", "");
-n = Math.floor(n);
-factorial(n)
